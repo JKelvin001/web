@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-color: rgb(193, 0, 252);
+            color: white;
+        }
+        main{
+            background-color: white;
+            width: 800px;
+            border-radius: 10px 10px 0px 0px;
+            padding: 10px;
+            margin: auto;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(71, 0, 73);
+            font: normal bold 1em 'Arial';
+            margin: 10px;
+        }
+        a:hover{
+            background-color: rgba(75, 0, 68, 0.534);
+            border-radius: 0px 10px 10px 0px;
+            padding: 5px;
+            text-align: justify;
+            max-width: max-content;
+        }
+        header h1{
+            text-align: center;
+            font: normal bold 2em 'Arial';
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>JavaScript e Links Externos</h1>
+    </header>
+    <nav>
+        <p><a href="https://google.com"target="_blank" rel="external">Google</a></p>
+        <p><a href="https://youtube.com"target="_blank" rel="external">YouTube</a></p>
+    </nav>
+    <main>
+        <h1>Links Externos</h1>
+    <p>Esta página é um oferecimento de <a href="https://www.hostnet.com.br" target="_blank" rel="nofollow">HostNet</a></p>
+
+    <h1>Página Anterior</h1>
+    <p>Retorne a página anterior <a href="index.html" rel="prev">aqui.</a></p>
+
+    <h1>Notícias.</h1>
+    <p>Você também pode conferir a nossa <a href="noticias/pag003.html" target="_self" rel="next">página de notícias.</a></p>
+    
+    <h1>Download de livros.</h1>
+    <ul>
+        <li>Curriculum. <a href="livro/João kelvin.pdf" target="_blank" download="João kelvin.pdf" type="application/pdf">Baixar livro em PDF</a></li>
+
+        <li>Curriculum 2 Ele voltou. <a href="livro/João kelvin.zip" download="João kelvin.zip" type="application/zip">Baixar livro compactado</a></li>
+    </ul>
+    </main>
+    <script>
+        window.alert("Este é um site adulto!")
+        window.confirm("Você possui mais de 18 anos?")
+        window.prompt("")
+    </script>
+    <footer>
+
+    </footer>
+
+</body>
+</html>
+<!-- alert é alerta, confirm é confirmação e prompt é pergunta-->
+<!--Caminho do arquivo >> download = nome do arquivo + tipo (ex: .pdf .zip) >> type = escolher o tipo dependendo do tipo do arquivo.-->

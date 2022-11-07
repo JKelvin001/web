@@ -1,0 +1,70 @@
+@charset 'UTF-8';
+body{
+    background-image: url(sinais.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font: normal normal 1.1em Arial;
+}
+main{
+    background-color: rgba(255, 255, 255, 0.89);
+    margin: auto;
+    padding: 1.5em;
+    width: 600px;
+    border-radius: 1em;
+    box-shadow: 7px 7px 8px #093521c2;
+}
+input{
+    border-radius: 15px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: max-content;
+    border-color: #0f4408;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #07cf00;
+}
+a:visited{
+    color: #061800;
+}
+a:hover{
+    text-decoration: underline;
+    color: #1eff00;
+}
+a:active{
+    color: rgb(43, 255, 0);
+}
+a::after{
+    text-decoration: none;
+    font-weight: normal;
+    color: #07cf00;
+}
+h1{
+    font: normal normal 2.5em 'Arial';
+}
+h1#principal{
+    font: normal bold 2.5em 'Segoe UI';
+    text-align: center;
+    text-shadow: 1px 1px 2px #0f4408a4;
+}
+h2{
+    font-weight: bold;
+}
+.sangue{
+    color: #f10000c2;
+}
+.conhecimento{
+    color: rgb(241, 205, 0);
+}
+.energia{
+    color: #6c0081c2;
+}
+.morte{
+    color: black;
+}
+.medo{
+    color: rgb(0, 0, 184);
+}

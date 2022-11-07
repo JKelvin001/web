@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-color: rgb(46, 46, 46);
+        }
+        main{
+            background-color: white;
+            width: 800px;
+            border-radius: 10px 10px 0px 0px;
+            padding: 10px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Lista de jogadores</h1>
+        <hr>
+        <h2>Brasil:</h2>
+        <ul type="disc"> <!--square, disc e circle-->
+            <li>Gabigol          </li>
+            <li>Raphael Veiga    </li>
+            <li>Calleri          </li>
+            <li>Hulk             </li>
+            <li>Marinho          </li>
+            <li>Everton Cebolinha</li>
+        </ul>
+        <!--OL para marcação ordenada e UL para marcação não ordenada. type para determinar o tipo de marcação.-->
+        <h2>Itens</h2>
+        <ol>
+            <li>Um</li>
+            <li>Dois</li>
+            <li>Três</li>
+            <ul type="square">
+                <li>Tres-Um</li>
+                <li>Tres-Dois</li>
+                <ul type="circle">
+                    <li>Tres-Dois-Um
+                    <li>Tres-Dois-Dois
+                </ul>
+                <li>Tres-Tres</li>
+            </ul type="square">
+            <li>Quatro</li>
+            <li>Cinco</li>
+        </ol>
+        <!--Listas Mistas ^^^-->
+        <h1>Lista de Definições</h1>
+        <hr>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language usado para criar sites.</dd>
+        </dl>
+    </main>
+</body>
+</html>

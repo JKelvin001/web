@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-color: rgb(43, 43, 43);
+        }
+        header{
+            text-align: center;
+        }
+        header h1{
+            font: normal bold 2.5em 'Arial';
+        }
+        header p{
+            font: normal bold 1em 'Arial';
+        }
+        main{
+            background-color: white;
+            width: 1100px;
+            border-radius: 10px 10px 0px 0px;
+            padding: 20px;
+            margin: auto;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
+        img{
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Imagens Dinâmicas e Áudio</h1>
+        <p>Imagem adpativa a diferentes tamanhos de tela.</p>
+    </header>
+    <main>
+        <picture>
+            <source media="(max-width: 750px)" srcset="Imagens/imagem-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="Imagens/imagem-m.png" type="image/png">
+            <!--Colocar sempre 50px a mais para não dar problema com a rolagem do navegador. Imagens menores escreva acima das grandes na ordem certa.-->
+            <img src="Imagens/imagem-g.png" alt="Imagem Flexivel">
+        </picture>
+        <!--abrir tag audio, inserir sourc src, inserir o audio e em seguida adicionar os types-->
+        <h1>Reproduzindo Áudios</h1>
+        <audio preload="metadata" controls>
+            <source src="midia/hiphopsong.mp3" type="audio/mpeg">
+            <source src="midia/hiphopsong.ogg" type="audio/ogg">
+            <source src="midia/hiphopsong.wav" type="audio/wav">
+            <p>Caso não funcione <a href="midia/hiphopsong.mp3">faça download do áudio aqui.</a></p>
+        </audio>
+    </main>
+    <!--Arquivos wav são muito pesados-->
+</body>
+</html>
+

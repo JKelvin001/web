@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Sigilos";
+    src: url('SigilosDoOutroLado-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sinais';
+    src: url('Sinais\ do\ Outro\ Lado.ttf') format('truetype');
+}     
+
+body {
+    background-image: linear-gradient(to right, #2F753B, #30813e, #0C751D);
+    font: normal normal 1.1em Arial black;   
+}
+main{
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    width: 1000px;
+    padding: 1.2em;
+    box-shadow: 7px 7px 8px #296633b7;
+}
+h1{
+    font-size: 3em;
+    font-family: "Sigilos";
+    color: #2F753B;
+    text-align: center;
+}
+h2 {
+    font-family: "Sigilos";
+    color: #2F753B;
+    font-size: 1.4em;
+}
+p {
+    font-weight: normal;
+    font-size: 1em;
+    color: black;
+    font-family: 'Sigilos';
+    text-align: justify;
+}
+abbr{
+    text-decoration: none;
+}
+input{
+    bottom: relative;
+    max-width: max-content;
+    text-align: center;
+    border-radius: 6em;
+    font-weight: 700;
+    border-color: #2F753B;
+}
+audio{
+    display: block;
+    padding: 20px 0px 0px 0px;
+ 
+}
