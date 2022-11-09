@@ -7,6 +7,7 @@
     <title>hmmm</title>
     <style>
         body{
+            /*
             height: 100vh;
             background-color: rgb(36, 36, 36);
             background-image: url("imagens/wallpaper002.jpg");
@@ -14,10 +15,19 @@
             background-position: center center;
             background-size: cover;
             background-attachment: fixed;
+            
+            Shorthand Background
+
+            size não funciona na shorthand :(
+
+            color > image > position > repeat > size > attachment
+            */
+            background: rgb(36, 36, 36) url('imagens/wallpaper002.jpg') no-repeat center center fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width: 500px;
+            max-width: 500px;
             margin: auto;
             padding: 10px;
             border-radius: 5px;
