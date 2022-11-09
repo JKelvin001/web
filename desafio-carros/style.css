@@ -1,0 +1,20 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.719);
+    height: 75px;
+}
+nav > a{
+    display: inline-block;
+    padding: 25px 20px;
+    font: normal bold 1em 'Arial';
+    text-decoration: none;
+    color: white;
+}
+nav > img{
+    width: 25px;
+}
