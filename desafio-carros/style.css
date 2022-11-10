@@ -45,10 +45,31 @@ input#pesquisa{
 
 section{
     background-color: rgba(0, 0, 0, 0.808);
+    text-shadow: 1px 1px 2px black;
+}
+.fastback{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.432);
+    width: 600px;
+    height: 300px;
+    padding: 10px 40px;
+    transform: translate(90%, 170%);
+}
+article h1{
+    font: normal bold 3em 'Arial';
+    color: white;
+    text-align: center;
+    line-height: 2em;
+}
+article p, li{
+    font: normal bold 1.8em 'Arial';
+    color: white;
+    line-height: 1.3em;
 }
 #part1{
     background-image: url('imagens/fiat-fastback.webp');
     background-size: cover;
+    background-position: center center;
     min-height: 92vh;
 }
 #part2{
@@ -57,17 +78,19 @@ section{
     min-height: 100vh;
 }
 #part3{
-    background-image: url('imagens/fiat-fastback.webp');
+    background-color: rgb(136, 136, 255);
     background-size: cover;
-    min-height: 100vh;
+    min-height: 92vh;
 }
 
 footer{
     background-color: rgba(0, 0, 0, 0.911);
-    height: 75px;
+    height: 60px;
     color: white;
     font: normal normal 1.1em 'Arial';
     text-align: center;
-    line-height: 2em;
     padding: 10px;    
+}
+footer p{
+    padding: 20px;
 }
