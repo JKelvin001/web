@@ -6,30 +6,31 @@
 html, body{
     min-height: 100vh;
     background-color: white;
+    font: normal bold 1em 'Arial';
+    color: white;
 }
 header{
     color: white;
     background-color: rgba(0, 0, 0, 0.911);
-    height: 80px;
+    height: 100px;
 }
 .menu1{
-    max-width: max-content;
-    height: 80px;
-    font: normal bold 1em 'Arial';
-    color: white;
+    height: 0%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
 }
-.menu1 > div{
+.menu1 > .click{
     display: inline-block;
     text-decoration: none;
-    padding: 29px 30px;
+    padding: 5px 30px;
 }
-.menu2{
-    
-}
-.menu2 > div > img{
+.menu1 > .logo > img{
+    display: block;
     width: 50px;
     height: 50px;
 }
+
 section{
     background-color: rgba(0, 0, 0, 0.808);
     text-shadow: 1px 1px 2px black;
