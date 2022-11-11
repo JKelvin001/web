@@ -9,38 +9,45 @@ html, body{
     font: normal bold 1em 'Arial';
     color: white;
 }
-header{
-    color: white;
-    background-color: rgba(0, 0, 0, 0.911);
-    height: 100px;
-}
 .menu1{
-    height: 0%;
-    width: 100%;
-    top: 0px;
-    left: 0px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.950);
+    height: 10vh;
 }
-.menu1 > .click{
-    display: inline-block;
-    text-decoration: none;
-    padding: 5px 30px;
-}
-.menu1 > .logo > img{
+.btn > input, a{
+    color: white;
+    background-color: transparent;
+    border: none;
     display: block;
-    width: 50px;
-    height: 50px;
+    float: left;
+    width: auto;
+    padding: 4.1vh 4vh;
 }
-
+a{
+    text-decoration: none;
+}
+.btn > a:hover, input:hover{
+    background-color: rgba(128, 128, 128, 0.349);
+}
+.logo{
+    position: absolute;
+    width: 5%;
+    height: 100%;
+    background-image: url('imagens/logo-z.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+}
 section{
     background-color: rgba(0, 0, 0, 0.808);
-    text-shadow: 1px 1px 2px black;
 }
 #part1{
-    background-image: url();
-    background-color: rgb(136, 227, 255);
+    background-image: url('imagens/fiat-fastback.webp');
     background-size: cover;
     background-position: center center;
-    min-height: 92vh;
+    min-height: 90vh;
 }
 #part2{
     background-color: rgb(221, 136, 255);
@@ -54,7 +61,7 @@ section{
 }
 
 footer{
-    background-color: rgba(0, 0, 0, 0.911);
+    background-color: rgba(0, 0, 0, 0.950);
     height: 60px;
     color: white;
     font: normal normal 1.1em 'Arial';
