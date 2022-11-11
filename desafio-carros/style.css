@@ -25,7 +25,7 @@ nav{
 .menu > a > img{
     width: 50px;
     display: block;
-    margin: -90px 900px 0px;
+    margin: -80px 910px 0px;
     padding: 2px;
 }
 .logo{
@@ -40,7 +40,7 @@ input#pesquisa{
     padding: 5px;
     left: 50%;
     bottom: 50%;
-    transform: translate(375%, -285%);
+    transform: translate(375%, -200%);
 }
 
 section{
@@ -48,13 +48,14 @@ section{
     text-shadow: 1px 1px 2px black;
 }
 #part1{
-    background-image: url('imagens/fiat-fastback.webp');
+    background-image: url();
+    background-color: rgb(136, 227, 255);
     background-size: cover;
     background-position: center center;
     min-height: 92vh;
 }
 #part2{
-    background-color: white;
+    background-color: rgb(221, 136, 255);
     background-size: cover;
     min-height: 100vh;
 }
