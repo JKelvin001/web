@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font: normal normal 1em 'Arial';
+            height: 1500px;
+        }
+        caption{
+            background-color: rgb(85, 85, 85);
+            color: white;
+            padding: 5px;
+        }
+        table{
+            border-collapse: collapse;
+            min-width: 400px;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+        }
+        thead, th, .resultado{
+            background-color: rgb(44, 44, 44);
+            color: white;
+            border: 1px solid black;
+            padding-left: 2px;  
+        }
+        tbody > tr:nth-child(odd){
+            background-color: rgb(85, 85, 85);
+            color: white;
+        }
+        tbody > tr:nth-child(even){
+            background-color: white;
+            color: black;
+        }
+        td{
+            border: 1px solid black;
+            padding-left: 2px;
+        }
+        .numeros{
+            text-align: right;
+        }
+        .regiao{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>Medida Populacional Brasileira</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+                <th scope="col">Região</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numeros">49.190.354</td>
+                <td class="regiao">Sudeste</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numeros">21.423.620</td>
+                <td class="regiao">Sudeste</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numeros">17.425.069</td>
+                <td class="regiao">Sudeste</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numeros">14.873.064</td>
+                <td class="regiao">Nordeste</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numeros">11.433.957</td>
+                <td class="regiao">Sul</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numeros">11.377.229</td>
+                <td class="regiao">Sul</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numeros">9.557.071</td>
+                <td class="regiao">Nordeste</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="resultado">135.280.364</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!--Hierarquia de Tabelas Simples-->
+    <!--table = tabela, table row = linha de tabela, table header = cabeçalho de tabela e table data = dado de tabela-->
+    <!--tr = row, td = data-->
+</body>
+</html>
