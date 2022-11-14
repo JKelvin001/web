@@ -1,0 +1,23 @@
+@charset (UTF-8);
+
+tbody{
+    font: normal bold 1em 'Arial';
+}
+table{
+    border-collapse: collapse;
+}
+caption {
+    font: normal bold 1.5em 'Arial';
+}
+th, thead{
+    text-align: center;
+    border: 1px solid black;
+    width: 80px;
+    padding: 5px;
+    font: normal bolder 1em 'Arial';
+}
+td{
+    border: 1px solid black; 
+    width: max-content;
+    padding: 4px;
+}

@@ -1,0 +1,32 @@
+@charset (UTF-8);
+
+#rolagem{
+    overflow-x: auto;
+}
+.mediag{
+    background-color: rgb(169, 85, 248);
+}
+.dcp{
+    background-color: rgb(252, 252, 69);
+}
+.first{
+    background-color: greenyellow;
+}
+caption{
+    font: normal bold 2em 'Arial';
+}
+table{
+    border-collapse: collapse;
+}
+th, td{
+    text-align: center;
+    border: 1px solid black;
+    width: 120px;
+    padding: 5px;
+}
+.media, .dcp{
+    text-align: left;
+}
+body{
+    background-image: url('');
+}
