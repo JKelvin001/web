@@ -1,0 +1,103 @@
+@charset "UTF-8";
+:root{
+    --cor1: rgba(0, 0, 0, 0.950);
+    --cor2: rgba(0, 0, 0, 0.900);
+    --cor3: rgba(128, 128, 128, 0.349);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100vh;
+    background-color: white;
+    font: normal bold 1em 'Arial';
+    color: white;
+}
+.menu1{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.950);
+    height: 10vh;
+}
+.menu2{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.900);
+    width: 200px;
+    height: 600px;
+    border-radius: 0px 0px 15px 15px;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(-360%, 37.3%);
+}
+#links > h3{
+    display: block;
+    font: normal normal 1.2em 'Arial';
+    padding: 10px;
+}
+.tp{
+    font: normal normal 1em 'Arial';
+    padding: 10px 90px 10px 10px;
+    flex-grow: 1px;
+    width: 100px;
+}
+.tp:hover{
+    background-color: var(--cor1);
+}
+.btn > input, a{
+    color: white;
+    font: normal bold 1em 'Arial';
+    background-color: transparent;
+    border: none;
+    display: block;
+    float: left;
+    width: auto;
+    padding: 4.1vh 4vh;
+}
+.btn > a:hover, input:hover{
+    background-color: rgba(128, 128, 128, 0.349);
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    position: absolute;
+    width: 5%;
+    height: 100%;
+    background-image: url('imagens/logofodapng50px.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+}
+section{
+    background-color: rgba(0, 0, 0, 0.808);
+}
+#part1{
+    background-image: url('imagens/fiat-fastback.webp');
+    background-size: cover;
+    background-position: center center;
+    min-height: 90vh;
+}
+#part2{
+    background-color: rgb(221, 136, 255);
+    background-size: cover;
+    min-height: 100vh;
+}
+#part3{
+    background-color: rgb(136, 136, 255);
+    background-size: cover;
+    min-height: 92vh;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.950);
+    height: 60px;
+    color: white;
+    font: normal normal 1.1em 'Arial';
+    text-align: center;
+    padding: 10px;    
+}
+footer p{
+    padding: 20px;
+}
