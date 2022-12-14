@@ -1,0 +1,38 @@
+@charset 'UTF-8';
+*{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #login{
+        width: 90vw;   
+    }
+    #imagem{
+        float: right;
+        width: 45%;
+        height: 100%;
+        border-radius: 0px 25px 25px 0px;
+        background-image: url(../imagens/Lamborghini-Aventador-S-1_925x520_acf_cropped.jpg);
+        background-position: center left 65%;
+    }
+    #formulario{
+        float: left;
+        width: 55%;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    #login{
+        width: 950px;
+    }
+    #imagem{
+        background-image: url(../imagens/Lamborghini-Aventador-S-1_925x520_acf_cropped.jpg);
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-radius: 0px 25px 25px 0px;
+    }
+    #formulario{
+        float: left;
+        width: 50%;
+    }
+}
