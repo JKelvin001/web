@@ -27,12 +27,12 @@ main{
     border-radius: 25px;
     box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.541);
 
-    transition: width .5s, height .5s;
+    transition: width 1.5s, height 1.5s;
     transition-timing-function: ease;
 }
 #imagem{
     display: block;
-    background: rgb(59, 5, 109) url(../imagens/Screenshot_1.png) center no-repeat;
+    background: rgb(59, 5, 109) url(../imagens/Cinerária.jpg) center no-repeat;
     background-size: cover;
     height: 200px;
     border-radius: 25px 25px 0px 0px;
@@ -40,4 +40,57 @@ main{
 #formulario{
     display: block;
     padding: 15px;
+}
+#formulario h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.campo span{
+    color: blueviolet;
+    background-color: rgb(50, 50, 50);
+    border-radius: 50%;
+    padding: 4px;
+}
+.campo input[type=email], [type=password]{
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid blueviolet;
+    padding: 5px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+
+    transform: translateY(-8px);
+}
+.click input:hover, .botao:hover{
+    background-color: blueviolet;
+    border-color: rgb(50, 50, 50);
+    color: white;
+}
+form > div > input[type=submit]{
+    display: block;
+    font: normal bold 1em 'Arial';
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    background-color: rgb(50, 50, 50);
+    color: blueviolet;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.479);
+}
+form > div > a.botao{
+    display: block;
+    text-align: center;
+    padding: 9px;
+    margin-top: 10px;
+
+    
+    background-color: rgb(50, 50, 50);
+    height: 40px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.479);
 }

@@ -9,15 +9,22 @@
     }
     #imagem{
         float: right;
-        width: 45%;
+        width: 65%;
         height: 100%;
         border-radius: 0px 25px 25px 0px;
-        background-image: url(../imagens/Lamborghini-Aventador-S-1_925x520_acf_cropped.jpg);
+        background-image: url(../imagens/cineraria-morada-668x400x80xX.jpg);
         background-position: center left 65%;
     }
     #formulario{
         float: left;
-        width: 55%;
+        width: 35%;
+    }
+    #formulario h1{
+        margin-bottom: 20px;
+    }
+    .campo input[type=email], [type=password]{
+        width: 83%;
+        height: 35px;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px){
@@ -25,7 +32,7 @@
         width: 950px;
     }
     #imagem{
-        background-image: url(../imagens/Lamborghini-Aventador-S-1_925x520_acf_cropped.jpg);
+        background-image: url(../imagens/Cinerária.jpg);
         float: right;
         width: 50%;
         height: 100%;
@@ -34,5 +41,53 @@
     #formulario{
         float: left;
         width: 50%;
+    }
+    #formulario h1{
+        margin-bottom: 20px;
+    }
+    .campo input[type=email], [type=password]{
+        width: 60%;
+        height: 35px;
+    }
+}
+@media screen and (min-width: 1200px){
+    body, html{
+        background-image: url(../imagens/Cinerária.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #imagem{
+        display: none;
+    }
+    #login{
+        width: 700px;
+        height: 600px;
+    }
+    #formulario{
+        padding: 0px 40px;
+    }
+    #formulario h1{
+        margin: 20px 0px 60px;
+        font: normal bold 2.5em 'Arial';
+    }
+    .campo span{
+        font-size: 2em;
+    }
+    .campo input[type=email], [type=password]{
+        height: 40px;
+        width: 45%;
+        transform: translateY(-12px);
+    }
+    .marca{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 40%);
+
+        width: 200px;
+        height: 200px;
+        background: blueviolet url(../imagens/marca.png) center;
+        background-size: contain;
+        border-radius: 50%;
     }
 }
