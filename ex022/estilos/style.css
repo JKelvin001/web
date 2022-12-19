@@ -27,7 +27,7 @@ main{
     border-radius: 25px;
     box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.541);
 
-    transition: width 1.5s, height 1.5s;
+    transition: width .4s, height .4s;
     transition-timing-function: ease;
 }
 #imagem{
